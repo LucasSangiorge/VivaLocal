@@ -1,0 +1,9 @@
+Python
+FastAPI
+PostgreSQL
+SQLAlchemy
+Alembic
+Pydantic
+Pytest
+Docker
+Git/GitHub
