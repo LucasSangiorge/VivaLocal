@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Alembic (versions ficam versionadas, isso aqui é cache/log se existir)
+*.pyc
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node (frontend, quando existir)
+node_modules/
+.next/
+dist/
+build/
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
