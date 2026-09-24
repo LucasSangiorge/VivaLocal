@@ -12,6 +12,7 @@ sys.path.append(str(Path(__file__).resolve().parents[1] / "backend"))
 from app.core.config import settings
 from app.models.base import Base
 from app.models.category import Category  # noqa: F401 - garante que o model é registrado no Base.metadata
+from app.models.place import Place  # noqa: F401 - garante que o model é registrado no Base.metadata
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
