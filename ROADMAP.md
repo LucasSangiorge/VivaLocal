@@ -1,3 +1,8 @@
+📌 Decisões de produto (pós-planejamento inicial)
+- População inicial do banco: cadastro manual dos primeiros ~50 estabelecimentos de Lagoa Santa (pesquisa por categoria), via a própria API (POST /places) ou script de seed a partir de planilha/CSV. Vantagem: contato direto com o dono do estabelecimento desde o início, o que facilita monetização futura (destaque pago).
+- API externa de lugares (Google Places, etc.) fica como evolução PÓS-MVP, não agora — motivo: custo/licença de API, complexidade de deduplicação, e reduz a prática de modelagem de banco que é o foco da fase atual de aprendizado. Quando migrar, adicionar campo tipo `source` ("manual"/"api_externa") no Place, sem quebrar o schema atual.
+- Estabelecimentos que quiserem privilégio (destaque, prioridade na fila, propaganda) ficam num fluxo de cadastro próprio pago — modelo de monetização ("app free pro usuário final, cobrança do estabelecimento").
+
 Semana 1 — Fundação do Backend
 Stack
 Python
